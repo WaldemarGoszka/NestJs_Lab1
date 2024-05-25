@@ -1,0 +1,18 @@
+npm run start:dev
+
+GET http://localhost:3000
+
+### Send FETCH Songs request
+GET http://localhost:3000/songs/
+
+### Find Songs Request
+GET http://localhost:3000/songs/1
+
+### Create new songs request
+POST http://localhost:3000/songs
+
+### Update Songs Request
+PUT http://localhost:3000/songs/1
+
+### DELETE Song request
+DELETE http://localhost:3000/songs/1
