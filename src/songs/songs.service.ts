@@ -1,4 +1,17 @@
 import { Injectable } from '@nestjs/common';
 
 @Injectable()
-export class SongsService {}
+export class SongsService {
+  // local db
+  // local db
+  private readonly songs = [];
+
+  create(song) {
+    this.songs.push(song);
+    return this.songs;
+  }
+
+  findAll() {
+    return this.songs;
+  }
+}
